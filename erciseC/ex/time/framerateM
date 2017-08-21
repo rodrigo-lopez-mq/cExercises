@@ -1,0 +1,629 @@
+root@msm8996:/ # QCarCam -input 0
+Counting Frames
+3, 1, 1
+Override input 0 to 0
+open input 0
+createSurface() 1280x720 at 0x0NATIVE_WINDOW_MIN_UNDEQUEUED_BUFFERS 1
+1280x720 2560 1843200
+1280x720 2560 1843200
+1280x720 2560 1843200
+1280x720 2560 1843200
+1280x720 2560 1843200
+
+int v4l2qcam::Open():1071: Query Sensors...
+int v4l2qcam::Open():1084: Open Control Stream...[  569.994116] msm_csid_irq CSID2_IRQ_STATUS_ADDR = 0x800
+[  570.014472] MSM-CPP cpp_init_hardware:1012 stream_cnt:0
+[  570.016959] type=1400 audit(515178.779:164): avc: denied { ioctl } for pid=1558 comm="Binder_3" path="socket:[32374]" dev="sockfs" ino=32374 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+[  570.017512] type=1400 audit(515178.779:165): avc: denied { ioctl } for pid=1558 comm="Binder_3" path="socket:[32374]" dev="sockfs" ino=32374 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+
+int v4l2qcam::Open():1098: Open Socket...
+int v4l2qcam::Open():1103: Config Shared Info...[  570.310288] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+
+int v4l2qcam::Open():1121: Open Stream 0...
+int v4l2qcam::Open():1128: Config Stream 0...[  570.602548] camera_check_event_status : event_data status out of bounds
+[  570.608246] camera_check_event_status : Line 73 event_data->status 0X10001
+
+int v4l2qcam::Camera_StreamOn_():2913: VIDIOC_STREAMON 1: S  570.622092] msm_csid_irq CSID2_IRQ_STATUS_ADDR = 0x800
+am was OFF
+Press 'e' to exit
+got first frame!
+
+[  582.077876] init: Starting service 'adsprpcd'...
+[  582.125663] init: Service 'adsprpcd' (pid 4043) exited with status 255
+
+[  710.770442] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 30
+[  712.432000] init: Starting service 'adsprpcd'...
+[  712.475256] init: Service 'adsprpcd' (pid 4071) exited with status 255
+[  712.480909] init: Service 'adsprpcd' (pid 4071) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  717.494339] init: Starting service 'adsprpcd'...
+[  717.525106] init: Service 'adsprpcd' (pid 4072) exited with status 255
+[  717.530665] init: Service 'adsprpcd' (pid 4072) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 31
+FPS: 29
+FPS: 30
+[  722.542155] init: Starting service 'adsprpcd'...
+[  722.573429] init: Service 'adsprpcd' (pid 4073) exited with status 255
+[  722.578990] init: Service 'adsprpcd' (pid 4073) killing any children in process group
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 30
+FPS: 30
+[  727.593165] init: Starting service 'adsprpcd'...
+[  727.626288] init: Service 'adsprpcd' (pid 4074) exited with status 255
+[  727.631965] init: Service 'adsprpcd' (pid 4074) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  730.842365] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 30
+[  732.642870] init: Starting service 'adsprpcd'...
+[  732.664678] init: Service 'adsprpcd' (pid 4075) exited with status 255
+[  732.670588] init: Service 'adsprpcd' (pid 4075) killing any children in process group
+FPS: 30
+FPS: 31
+FPS: 29
+FPS: 30
+FPS: 30
+[  737.681463] init: Starting service 'adsprpcd'...
+[  737.713416] init: Service 'adsprpcd' (pid 4076) exited with status 255
+[  737.719025] init: Service 'adsprpcd' (pid 4076) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 30
+FPS: 29
+FPS: 31
+[  742.735030] init: Starting service 'adsprpcd'...
+[  742.757933] init: Service 'adsprpcd' (pid 4077) exited with status 255
+[  742.765267] init: Service 'adsprpcd' (pid 4077) killing any children in process group
+FPS: 30
+[  744.090402] <GLINK_PKT> err: glink_pkt_open: open failed on dev id:0 rc:-110
+FPS: 30
+[  745.118836] apq8096-auto-asoc-snd soc:sound-adp-agave: ASoC: platform (null) not registered
+FPS: 30
+FPS: 30
+FPS: 30
+[  747.779439] init: Starting service 'adsprpcd'...
+[  747.817627] init: Service 'adsprpcd' (pid 4078) exited with status 255
+[  747.823509] init: Service 'adsprpcd' (pid 4078) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  750.900829] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 31
+[  752.833388] init: Starting service 'adsprpcd'...
+[  752.870473] init: Service 'adsprpcd' (pid 4079) exited with status 255
+[  752.875980] init: Service 'adsprpcd' (pid 4079) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 29
+FPS: 31
+FPS: 30
+[  757.888424] init: Starting service 'adsprpcd'...
+[  757.929001] init: Service 'adsprpcd' (pid 4080) exited with status 255
+[  757.935189] init: Service 'adsprpcd' (pid 4080) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  762.944908] init: Starting service 'adsprpcd'...
+[  762.995142] init: Service 'adsprpcd' (pid 4081) exited with status 255
+[  763.000737] init: Service 'adsprpcd' (pid 4081) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  767.012810] init: Starting service 'adsprpcd'...
+[  767.048127] init: Service 'adsprpcd' (pid 4082) exited with status 255
+[  767.053778] init: Service 'adsprpcd' (pid 4082) killing any children in process group
+FPS: 31
+FPS: 29
+FPS: 30
+FPS: 30
+[  770.960957] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+[  772.064144] init: Starting service 'adsprpcd'...
+[  772.110144] init: Service 'adsprpcd' (pid 4083) exited with status 255
+[  772.116093] init: Service 'adsprpcd' (pid 4083) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 29
+FPS: 31
+FPS: 30
+[  777.130762] init: Starting service 'adsprpcd'...
+[  777.151640] init: Service 'adsprpcd' (pid 4084) exited with status 255
+[  777.157220] init: Service 'adsprpcd' (pid 4084) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  782.171115] init: Starting service 'adsprpcd'...
+[  782.201653] init: Service 'adsprpcd' (pid 4085) exited with status 255
+[  782.207326] init: Service 'adsprpcd' (pid 4085) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  787.222287] init: Starting service 'adsprpcd'...
+FPS: 30
+[  787.256947] init: Service 'adsprpcd' (pid 4086) exited with status 255
+[  787.262649] init: Service 'adsprpcd' (pid 4086) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  791.022459] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 30
+[  792.273102] init: Starting service 'adsprpcd'...
+[  792.325386] init: Service 'adsprpcd' (pid 4087) exited with status 255
+[  792.331134] init: Service 'adsprpcd' (pid 4087) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  797.343090] init: Starting service 'adsprpcd'...
+[  797.386296] init: Service 'adsprpcd' (pid 4088) exited with status 255
+[  797.391952] init: Service 'adsprpcd' (pid 4088) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 29
+[  802.407380] init: Starting service 'adsprpcd'...
+[  802.442333] init: Service 'adsprpcd' (pid 4089) exited with status 255
+[  802.448005] init: Service 'adsprpcd' (pid 4089) killing any children in process group
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 30
+FPS: 30
+[  807.458620] init: Starting service 'adsprpcd'...
+[  807.483576] init: Service 'adsprpcd' (pid 4090) exited with status 255
+[  807.489637] init: Service 'adsprpcd' (pid 4090) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  811.090441] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 30
+[  812.504012] init: Starting service 'adsprpcd'...
+[  812.528199] init: Service 'adsprpcd' (pid 4092) exited with status 255
+[  812.534226] init: Service 'adsprpcd' (pid 4092) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  817.546628] init: Starting service 'adsprpcd'...
+[  817.574509] init: Service 'adsprpcd' (pid 4093) exited with status 255
+[  817.580479] init: Service 'adsprpcd' (pid 4093) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 29
+FPS: 31
+FPS: 30
+[  822.591515] init: Starting service 'adsprpcd'...
+[  822.616561] init: Service 'adsprpcd' (pid 4094) exited with status 255
+[  822.624077] init: Service 'adsprpcd' (pid 4094) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  827.633212] init: Starting service 'adsprpcd'...
+[  827.667995] init: Service 'adsprpcd' (pid 4095) exited with status 255
+[  827.673587] init: Service 'adsprpcd' (pid 4095) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  831.150514] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+FPS: 30
+[  832.684953] init: Starting service 'adsprpcd'...
+[  832.722328] init: Service 'adsprpcd' (pid 4096) exited with status 255
+[  832.727833] init: Service 'adsprpcd' (pid 4096) killing any children in process group
+FPS: 31
+FPS: 29
+FPS: 30
+FPS: 31
+FPS: 30
+[  837.742429] init: Starting service 'adsprpcd'...
+[  837.774581] init: Service 'adsprpcd' (pid 4097) exited with status 255
+[  837.780239] init: Service 'adsprpcd' (pid 4097) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  842.791810] init: Starting service 'adsprpcd'...
+[  842.818750] init: Service 'adsprpcd' (pid 4098) exited with status 255
+[  842.826463] init: Service 'adsprpcd' (pid 4098) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  845.841600] kworker/dying (3586) used greatest stack depth: 10008 bytes left
+FPS: 30
+FPS: 30
+[  847.834391] init: Starting service 'adsprpcd'...
+[  847.874229] init: Service 'adsprpcd' (pid 4099) exited with status 255
+[  847.879882] init: Service 'adsprpcd' (pid 4099) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  851.221021] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 31
+FPS: 30
+[  852.892439] init: Starting service 'adsprpcd'...
+[  852.928786] init: Service 'adsprpcd' (pid 4101) exited with status 255
+[  852.934574] init: Service 'adsprpcd' (pid 4101) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  857.949455] init: Starting service 'adsprpcd'...
+[  857.976812] init: Service 'adsprpcd' (pid 4102) exited with status 255
+[  857.983028] init: Service 'adsprpcd' (pid 4102) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 31
+[  862.992582] init: Starting service 'adsprpcd'...
+[  863.025760] init: Service 'adsprpcd' (pid 4103) exited with status 255
+[  863.031335] init: Service 'adsprpcd' (pid 4103) killing any children in process group
+FPS: 30
+FPS: 30
+[  865.110618] <GLINK_PKT> err: glink_pkt_open: open failed on dev id:0 rc:-110
+FPS: 30
+[  866.129174] apq8096-auto-asoc-snd soc:sound-adp-agave: ASoC: platform (null) not registered
+FPS: 30
+[  867.042850] init: Starting service 'adsprpcd'...
+[  867.079135] init: Service 'adsprpcd' (pid 4104) exited with status 255
+[  867.084919] init: Service 'adsprpcd' (pid 4104) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  871.283014] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[  872.094978] init: Starting service 'adsprpcd'...
+[  872.123621] init: Service 'adsprpcd' (pid 4105) exited with status 255
+[  872.129922] init: Service 'adsprpcd' (pid 4105) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  877.141984] init: Starting service 'adsprpcd'...
+[  877.167884] init: Service 'adsprpcd' (pid 4106) exited with status 255
+[  877.173817] init: Service 'adsprpcd' (pid 4106) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 31
+[  882.188389] init: Starting service 'adsprpcd'...
+[  882.218736] init: Service 'adsprpcd' (pid 4107) exited with status 255
+[  882.227339] init: Service 'adsprpcd' (pid 4107) killing any children in process group
+FPS: 29
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 30
+[  887.235985] init: Starting service 'adsprpcd'...
+FPS: 30
+[  887.268886] init: Service 'adsprpcd' (pid 4108) exited with status 255
+[  887.274799] init: Service 'adsprpcd' (pid 4108) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  891.350525] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+[  892.283809] init: Starting service 'adsprpcd'...
+[  892.318645] init: Service 'adsprpcd' (pid 4109) exited with status 255
+[  892.325409] init: Service 'adsprpcd' (pid 4109) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  897.338994] init: Starting service 'adsprpcd'...
+[  897.372397] init: Service 'adsprpcd' (pid 4110) exited with status 255
+[  897.377942] init: Service 'adsprpcd' (pid 4110) killing any children in process group
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 30
+FPS: 30
+[  902.392538] init: Starting service 'adsprpcd'...
+[  902.419012] init: Service 'adsprpcd' (pid 4111) exited with status 255
+[  902.426655] init: Service 'adsprpcd' (pid 4111) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  907.442434] init: Starting service 'adsprpcd'...
+[  907.462763] init: Service 'adsprpcd' (pid 4112) exited with status 255
+[  907.468457] init: Service 'adsprpcd' (pid 4112) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  911.410359] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+[  912.482827] init: Starting service 'adsprpcd'...
+[  912.516324] init: Service 'adsprpcd' (pid 4113) exited with status 255
+[  912.523227] init: Service 'adsprpcd' (pid 4113) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 29
+FPS: 30
+FPS: 31
+[  917.533652] init: Starting service 'adsprpcd'...
+[  917.567352] init: Service 'adsprpcd' (pid 4114) exited with status 255
+[  917.573104] init: Service 'adsprpcd' (pid 4114) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  922.587995] init: Starting service 'adsprpcd'...
+[  922.615427] init: Service 'adsprpcd' (pid 4115) exited with status 255
+[  922.621072] init: Service 'adsprpcd' (pid 4115) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  927.631958] init: Starting service 'adsprpcd'...
+[  927.668585] init: Service 'adsprpcd' (pid 4116) exited with status 255
+[  927.674223] init: Service 'adsprpcd' (pid 4116) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  931.470533] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 31
+[  932.688434] init: Starting service 'adsprpcd'...
+[  932.714992] init: Service 'adsprpcd' (pid 4117) exited with status 255
+[  932.720792] init: Service 'adsprpcd' (pid 4117) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  937.731966] init: Starting service 'adsprpcd'...
+[  937.768920] init: Service 'adsprpcd' (pid 4118) exited with status 255
+[  937.774479] init: Service 'adsprpcd' (pid 4118) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 31
+[  942.785964] init: Starting service 'adsprpcd'...
+[  942.829038] init: Service 'adsprpcd' (pid 4119) exited with status 255
+[  942.834862] init: Service 'adsprpcd' (pid 4119) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  947.845103] init: Starting service 'adsprpcd'...
+[  947.892005] init: Service 'adsprpcd' (pid 4121) exited with status 255
+[  947.897766] init: Service 'adsprpcd' (pid 4121) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  951.530880] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+[  952.914125] init: Starting service 'adsprpcd'...
+[  952.945304] init: Service 'adsprpcd' (pid 4122) exited with status 255
+[  952.950941] init: Service 'adsprpcd' (pid 4122) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  957.961370] init: Starting service 'adsprpcd'...
+[  958.012780] init: Service 'adsprpcd' (pid 4123) exited with status 255
+[  958.018292] init: Service 'adsprpcd' (pid 4123) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 31
+FPS: 30
+[  962.032649] init: Starting service 'adsprpcd'...
+[  962.058970] init: Service 'adsprpcd' (pid 4124) exited with status 255
+[  962.064696] init: Service 'adsprpcd' (pid 4124) killing any children in process group
+FPS: 29
+FPS: 30
+FPS: 30
+FPS: 31
+FPS: 30
+[  967.074957] init: Starting service 'adsprpcd'...
+[  967.108615] init: Service 'adsprpcd' (pid 4125) exited with status 255
+[  967.114289] init: Service 'adsprpcd' (pid 4125) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  971.590912] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[  972.126359] init: Starting service 'adsprpcd'...
+[  972.152970] init: Service 'adsprpcd' (pid 4126) exited with status 255
+[  972.158986] init: Service 'adsprpcd' (pid 4126) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  977.173067] init: Starting service 'adsprpcd'...
+[  977.195709] init: Service 'adsprpcd' (pid 4127) exited with status 255
+[  977.201577] init: Service 'adsprpcd' (pid 4127) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 31
+FPS: 30
+FPS: 30
+[  982.215706] init: Starting service 'adsprpcd'...
+[  982.249362] init: Service 'adsprpcd' (pid 4128) exited with status 255
+FPS: 30
+[  982.255571] init: Service 'adsprpcd' (pid 4128) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+[  986.110707] <GLINK_PKT> err: glink_pkt_open: open failed on dev id:0 rc:-110
+FPS: 30
+[  987.135579] apq8096-auto-asoc-snd soc:sound-adp-agave: ASoC: platform (null) not registered
+FPS: 30
+[  987.267408] init: Starting service 'adsprpcd'...
+[  987.299430] init: Service 'adsprpcd' (pid 4129) exited with status 255
+[  987.305479] init: Service 'adsprpcd' (pid 4129) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[  991.651448] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+FPS: 30
+[  992.314160] init: Starting service 'adsprpcd'...
+[  992.339899] init: Service 'adsprpcd' (pid 4130) exited with status 255
+[  992.346076] init: Service 'adsprpcd' (pid 4130) killing any children in process group
+FPS: 31
+FPS: 30
+FPS: 29
+FPS: 30
+FPS: 31
+[  997.357646] init: Starting service 'adsprpcd'...
+[  997.389467] init: Service 'adsprpcd' (pid 4131) exited with status 255
+[  997.395056] init: Service 'adsprpcd' (pid 4131) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[ 1002.406025] init: Starting service 'adsprpcd'...
+[ 1002.451939] init: Service 'adsprpcd' (pid 4132) exited with status 255
+[ 1002.457614] init: Service 'adsprpcd' (pid 4132) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+FPS: 30
+[ 1007.471118] init: Starting service 'adsprpcd'...
+[ 1007.493912] init: Service 'adsprpcd' (pid 4133) exited with status 255
+[ 1007.499427] init: Service 'adsprpcd' (pid 4133) killing any children in process group
+FPS: 30
+FPS: 30
+FPS: 30
+^C[ 1010.725627] binder: 4014: binder_alloc_buf, no vma
+[ 1010.732351] binder: 4014: binder_alloc_buf, no vma
+[ 1010.789862] CAM-VB2 msm_vb2_stop_stream:125 msm_vb2_stop_stream:125] NULL stream
+[ 1010.796221] ------------[ cut here ]------------
+[ 1010.800992] WARNING: CPU: 1 PID: 4017 at /local/mnt/workspace/rodrigo/ANDROID/one/kernel/drivers/media/v4l2-core/videobuf2-core.c:2124 __vb2_queue_cancel+0x48/0x148()
+[ 1010.816831] Call trace:
+[ 1010.818742] ---[ end trace cb88537fdc8fa207 ]---
+[ 1010.823764] CAM-VB2 msm_vb2_buf_finish:100 msm_vb2_buf_finish:100] NULL stream[ 1010.824604] mdss_dsi_panel_bl_ctrl: Unknown bl_ctrl configuration
+
+[ 1010.836095] CAM-VB2 msm_vb2_buf_finish:100 msm_vb2_buf_finish:100] NULL streamCAM-VB2 msm_vb2_buf_finish:100 msm_vb2_buf_finish:100] NULL stream
+[ 1010.850199] mdss_dsi_panel_bl_ctrl: Unknown bl_ctrl configuration
+
+130|root@msm8996:/ # [ 1010.874666] mdss_dsi_panel_bl_ctrl: Unknown bl_ctrl configuration
+[ 1011.721336] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1012.515111] init: Starting service 'adsprpcd'...
+[ 1012.553368] init: Service 'adsprpcd' (pid 4140) exited with status 255
+[ 1012.558888] init: Service 'adsprpcd' (pid 4140) killing any children in process group
+[ 1017.574922] init: Starting service 'adsprpcd'...
+[ 1017.614064] init: Service 'adsprpcd' (pid 4141) exited with status 255
+[ 1017.619626] init: Service 'adsprpcd' (pid 4141) killing any children in process group
+[ 1022.631005] init: Starting service 'adsprpcd'...
+[ 1022.671303] init: Service 'adsprpcd' (pid 4142) exited with status 255
+[ 1022.676816] init: Service 'adsprpcd' (pid 4142) killing any children in process group
+[ 1027.689791] init: Starting service 'adsprpcd'...
+[ 1027.733858] init: Service 'adsprpcd' (pid 4143) exited with status 255
+[ 1027.739492] init: Service 'adsprpcd' (pid 4143) killing any children in process group
+[ 1031.790720] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1032.750790] init: Starting service 'adsprpcd'...
+[ 1032.775425] init: Service 'adsprpcd' (pid 4150) exited with status 255
+[ 1032.781163] init: Service 'adsprpcd' (pid 4150) killing any children in process group
+[ 1037.793325] init: Starting service 'adsprpcd'...
+[ 1037.832599] init: Service 'adsprpcd' (pid 4154) exited with status 255
+[ 1037.838119] init: Service 'adsprpcd' (pid 4154) killing any children in process group
+[ 1042.855916] init: Starting service 'adsprpcd'...
+[ 1042.907804] init: Service 'adsprpcd' (pid 4155) exited with status 255
+[ 1042.913465] init: Service 'adsprpcd' (pid 4155) killing any children in process group
+[ 1047.929044] init: Starting service 'adsprpcd'...
+[ 1047.972677] init: Service 'adsprpcd' (pid 4156) exited with status 255
+[ 1047.978187] init: Service 'adsprpcd' (pid 4156) killing any children in process group
+[ 1051.860786] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1052.992558] init: Starting service 'adsprpcd'...
+[ 1053.033333] init: Service 'adsprpcd' (pid 4157) exited with status 255
+[ 1053.038855] init: Service 'adsprpcd' (pid 4157) killing any children in process group
+[ 1057.053696] init: Starting service 'adsprpcd'...
+[ 1057.093376] init: Service 'adsprpcd' (pid 4158) exited with status 255
+[ 1057.098886] init: Service 'adsprpcd' (pid 4158) killing any children in process group
+[ 1062.114894] init: Starting service 'adsprpcd'...
+[ 1062.151669] init: Service 'adsprpcd' (pid 4159) exited with status 255
+[ 1062.157225] init: Service 'adsprpcd' (pid 4159) killing any children in process group
+[ 1067.172609] init: Starting service 'adsprpcd'...
+[ 1067.212649] init: Service 'adsprpcd' (pid 4160) exited with status 255
+[ 1067.218238] init: Service 'adsprpcd' (pid 4160) killing any children in process group
+[ 1071.931017] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1072.234439] init: Starting service 'adsprpcd'...
+[ 1072.273075] init: Service 'adsprpcd' (pid 4161) exited with status 255
+[ 1072.278586] init: Service 'adsprpcd' (pid 4161) killing any children in process group
+[ 1077.294336] init: Starting service 'adsprpcd'...
+[ 1077.332790] init: Service 'adsprpcd' (pid 4162) exited with status 255
+[ 1077.338312] init: Service 'adsprpcd' (pid 4162) killing any children in process group
+[ 1082.354133] init: Starting service 'adsprpcd'...
+[ 1082.393091] init: Service 'adsprpcd' (pid 4163) exited with status 255
+[ 1082.398602] init: Service 'adsprpcd' (pid 4163) killing any children in process group
+[ 1087.413789] init: Starting service 'adsprpcd'...
+[ 1087.455252] init: Service 'adsprpcd' (pid 4165) exited with status 255
+[ 1087.460844] init: Service 'adsprpcd' (pid 4165) killing any children in process group
+[ 1092.000961] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1092.476630] init: Starting service 'adsprpcd'...
+[ 1092.527872] init: Service 'adsprpcd' (pid 4166) exited with status 255
+[ 1092.533573] init: Service 'adsprpcd' (pid 4166) killing any children in process group
+[ 1097.549101] init: Starting service 'adsprpcd'...
+[ 1097.592641] init: Service 'adsprpcd' (pid 4169) exited with status 255
+[ 1097.598159] init: Service 'adsprpcd' (pid 4169) killing any children in process group
+[ 1102.613908] init: Starting service 'adsprpcd'...
+[ 1102.653255] init: Service 'adsprpcd' (pid 4170) exited with status 255
+[ 1102.658765] init: Service 'adsprpcd' (pid 4170) killing any children in process group
+[ 1107.120884] <GLINK_PKT> err: glink_pkt_open: open failed on dev id:0 rc:-110
+[ 1107.672779] init: Starting service 'adsprpcd'...
+[ 1107.712952] init: Service 'adsprpcd' (pid 4171) exited with status 255
+[ 1107.718542] init: Service 'adsprpcd' (pid 4171) killing any children in process group
+[ 1108.139380] ueventd: SELinux:  Could not stat /sys/bus/platform/drivers/dummydriver12345: No such file or directory.
+[ 1108.174649] apq8096-auto-asoc-snd soc:sound-adp-agave: ASoC: platform (null) not registered
+[ 1112.071176] smd_pkt_open: wait on smd_pkt_dev id:0 allocation failed rc:-110
+[ 1112.732755] init: Starting service 'adsprpcd'...
+[ 1112.774694] init: Service 'adsprpcd' (pid 4174) exited with status 255
+[ 1112.780266] init: Service 'adsprpcd' (pid 4174) killing any children in process group
+[ 1117.792681] init: Starting service 'adsprpcd'...
+[ 1117.832725] init: Service 'adsprpcd' (pid 4175) exited with status 255
+[ 1117.838241] init: Service 'adsprpcd' (pid 4175) killing any children in process group
+[ 1122.854283] init: Starting service 'adsprpcd'...
+[ 1122.893769] init: Service 'adsprpcd' (pid 4176) exited with status 255
+[ 1122.899369] init: Service 'adsprpcd' (pid 4176) killing any children in process group
+[ 1127.911438] init: Starting service 'adsprpcd'...
+[ 1127.953259] init: Service 'adsprpcd' (pid 4177) exited with status 255
+[ 1127.958850] init: Service 'adsprpcd' (pid 4177) killing any children in process group
