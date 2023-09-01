@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "ostream": "cpp",
-        "iostream": "cpp",
-        "system_error": "cpp",
-        "type_traits": "cpp",
-        "initializer_list": "cpp"
-    }
-}
