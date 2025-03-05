@@ -27,8 +27,12 @@ def main():
     for file in files_to_delete:
         print(file)
 
-    confirmation = input("Do you want to delete these files? (yes/no): ")
-
+    skip_confirmation = True
+    if skip_confirmation != True:
+        confirmation = input("Do you want to delete these files? (yes/no): ")
+    else:
+        confirmation = "yes"
+    
     if confirmation.lower() == 'yes':
         for file in files_to_delete:
             os.remove(file)
