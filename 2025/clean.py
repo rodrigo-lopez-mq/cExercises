@@ -3,7 +3,7 @@ import os
 import argparse
 
 def get_files_to_delete(root_path):
-    extensions = {'.py', '.pyc', '.pyo', '.pyd', '.c', '.h', '.cpp', '.hpp', '.cc'}
+    extensions = {'.py', '.pyc', '.pyo', '.pyd', '.c', '.h', '.cpp', '.hpp', '.cc', '.txt'}
     files_to_delete = []
 
     for dirpath, _, filenames in os.walk(root_path):
